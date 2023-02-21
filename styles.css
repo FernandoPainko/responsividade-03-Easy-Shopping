@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+
+    display: inline-block;
+    width: 60vw;
+
+}
+
+aside {
+    position: absolute;
+    display: inline-block;
+    width: 40vw;
+    height: 100%;
+    right: 0;
+    background: rgba(93, 93, 125, .1);
+
+}
+
+img {
+    position: absolute;
+    height: 561px;
+    width: 456px;
+    margin: 216px 177px 123px -140px;
+
+}
+
+header {
+    position: absolute;
+    font-size: 28px;
+    line-height: 41px;
+    margin: 24px 0 0 57px;
+    color: #5D5D7D;
+    word-spacing: 41px;
+}
+
+h1 {
+    position: absolute;
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    margin: 381px 0 0 136px
+}
+
+p {
+    position: absolute;
+    width: 540px;
+    height: 144px;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin: 556px 0 0 136px;
+}
+
+button {
+    position: absolute;
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 24px;
+    margin: 715px 0 0 136px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:800px) {
+    * {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: none;
+    }
+
+    header {
+        margin: 0;
+        display: none;
+
+    }
+
+
+
+    aside {
+
+        display: block;
+        height: 50%;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    img {
+        margin: 46px 51px 46px 51px;
+        height: 322px;
+        width: 271px;
+
+
+    }
+
+
+
+    section {
+        margin: 0;
+        display: block;
+        position: absolute;
+        width: auto;
+        height: 50%;
+      
+    }
+
+
+    h1 {
+
+        height: 104px;
+        width: 235px;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        color: #5D5D7D;
+        margin: 58px 53px 0 54px;
+    }
+
+    p {
+
+        width: 296px;
+        height: 96px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #5D5D7D;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        margin: 177px 39px 0 40px;
+    }
+
+    button {
+        margin: 288px 54px 47px 54px;
+    }
+}
